@@ -1,9 +1,8 @@
 'use strict';
 
-
 const table = document.querySelector('table');
 
-for (let row of table.rows) {
+for (const row of table.rows) {
   const cells = row.cells;
   const positionCell = cells[1].cloneNode(true);
 
